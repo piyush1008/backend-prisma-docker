@@ -1,8 +1,9 @@
 
-To build the image - 
+***To build the image***
 docker build --build-arg DATABASE_URL="xxxx" -t imagename . 
+During the building of the images we can pass the dummy database Url.
 
 
-To run the image
+***To run the image***
 
 docker run  -e DATABASE_URL="XXXXXXXX" -p 8000:8000 docker-rev-backend
