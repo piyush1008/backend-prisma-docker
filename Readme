@@ -1,0 +1,8 @@
+
+To build the image - 
+docker build --build-arg DATABASE_URL="xxxx" -t imagename . 
+
+
+To run the image
+
+docker run  -e DATABASE_URL="XXXXXXXX" -p 8000:8000 docker-rev-backend
